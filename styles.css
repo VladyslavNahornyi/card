@@ -155,7 +155,35 @@ img {
 
 @media only screen and (max-width: 992px) {
     .wrapper {
-        margin: 100px auto 0;
         max-width: 90%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        margin: 15px auto;
+    }
+    .image-container,
+    .message-container {
+        width: 100%;
+        display: block;
+    }
+    .image-container .image-wrapper {
+        height: 200px;
+    }
+    .message-container {
+        padding: 15px;
+        height: auto;
+    }
+    .main-text {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        max-height: initial;
+    }
+    .bottom {
+        position: static;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+
     }
 }
